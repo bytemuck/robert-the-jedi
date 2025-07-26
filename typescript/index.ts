@@ -1,6 +1,6 @@
 import { run } from "./jdis";
 
-const token = "YOUR_TOKEN_HERE";
+const token = "rwjfat64";
 
 run(
     () => {
@@ -10,9 +10,7 @@ run(
         console.clear();
         bot.print();
 
-        // Ajoutez votre code ici!
-
-        return bot.doNothing();
+        return bot.move({ x: 1, y: 1 });
     },
     token,
 );
